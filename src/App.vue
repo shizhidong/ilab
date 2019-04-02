@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -12,12 +11,10 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+*{padding: 0; margin:0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#app{height:100%}
+html,body{height:100%;}
+.el-menu-item-group__title{padding: 0px 0 0px 0px;}
+.el-submenu__title i{color:#fff!important}
+.el-menu-item i{color:#fff!important}
 </style>
