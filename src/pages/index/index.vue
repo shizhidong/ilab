@@ -49,8 +49,8 @@
                         <el-menu-item index="4-1">成员权限</el-menu-item>
                         <el-menu-item index="4-2">机构信息</el-menu-item>
                         <el-menu-item index="4-3">子机构管理</el-menu-item>
-                        <el-menu-item index="4-3">审批设置</el-menu-item>
-                        <el-menu-item index="4-3">系统设置</el-menu-item>
+                        <el-menu-item index="4-4">审批设置</el-menu-item>
+                        <el-menu-item index="4-5">系统设置</el-menu-item>
                     </el-menu-item-group>
                 </el-submenu>
             </el-menu>
